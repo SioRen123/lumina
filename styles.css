@@ -80,6 +80,7 @@ img {
 
 .bg-primary {
     background: var(--primary-color);
+    color: #333;
 }
 
 
@@ -90,6 +91,19 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.hero-contact {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hero-contact h2 {
+    font-size: xxx-large;
 }
 
 .hero h2 {
@@ -136,6 +150,161 @@ img {
 }
 
 
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #333;
+    color: aliceblue;
+}
+
+.about div {
+    display: flex;
+    margin: 20px 60px;
+    justify-content: space-between;
+
+}
+
+.about div div h4 {
+    margin: 20px;
+
+}
+
+.about h3 {
+    margin-top: 30px;
+}
+
+
+.about div div{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.ppl {
+    text-align: center;
+}
+
+.ppl div {
+    display: flex;
+    margin: 20px 60px;
+    justify-content: space-between;
+
+
+}
+
+
+.ppl div img {
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 20 auto;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+
+.ppl div div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.hero-contact {
+    background-color: #333;
+    color: aliceblue;
+}
+
+.hero div h2 span {
+    color: #333;
+}
+
+.form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.contactus {
+    margin: 30px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.form form input {
+    outline: none;
+    border: none;
+    height: 50px;
+    border-bottom: black solid 1px;
+    background-color: white;
+    
+}
+
+.send:hover {
+    background-color: #333;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+
+.form form textarea {
+    outline: none;
+    border: none;
+    height: 150px;
+    border-bottom: black solid 1px;
+    background-color: white;
+    padding-top: 10px;
+    font-family: inherit;
+
+}
+
+.send {
+    outline: none;
+    height: 90px;
+    border: black solid 1px !important;
+    background-color: white;
+    margin: 20px;
+    border-radius: 3px;
+
+}
+
+.hero-form {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Queries */
 @media (max-width: 768px) {
@@ -156,5 +325,15 @@ img {
     }
     .footer .footer-flex {
         text-align: center;
+    }
+
+    .about div {
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .ppl div {
+        flex-direction: column;
+
     }
 }
